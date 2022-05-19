@@ -109,7 +109,7 @@ local mappings = {
   },
   ["p"] = { "<cmd>Telescope projects<cr>", "Projects" },
 
-  ["P"] = { "<cmd>SessionManager load_session<cr>", "Projects" },
+  ["P"] = { "<cmd>SessionManager load_session<cr>", "Sessions" },
 
   ["t"] = {
     "<cmd>UltestSummary<CR>", "Unit Test"
