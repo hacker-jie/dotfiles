@@ -85,7 +85,7 @@ return packer.startup(function(use)
 
   -- Telescope
   use {
-    "nvim-telescope/telescope.nvim",
+    "nvim-tescope/telescope.nvim",
     tag = "nvim-0.6",
   }
   use {
@@ -279,6 +279,9 @@ return packer.startup(function(use)
   use "Pocco81/AutoSave.nvim"
   use "djoshea/vim-autoread"
 
+  -- -- cscope keymaps
+  use 'dhananjaylatkar/cscope_maps.nvim'
+  require('cscope_maps') -- load cscope maps
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
