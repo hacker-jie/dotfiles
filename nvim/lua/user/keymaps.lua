@@ -147,6 +147,9 @@ keymap('n', '<leader>k', '[c', opts)
 keymap("n", "<leader>rr", "<cmd>UltestNearest<cr>", opts)
 keymap("n", "<leader>rd", "<cmd>UltestDebugNearest<cr>", opts)
 
+-- cscope_map
+keymap("n", "<leader>vv", "<cmd>cclose<cr>", opts)
+
 -- comment
 keymap("n", "gcf", "<cmd>Dox<cr>", opts)
 
